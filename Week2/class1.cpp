@@ -2,6 +2,7 @@
 #include <ctime>
 using namespace std;
 
+//Write a program to check if a number is positive.
 // int main(){
 //     int num;
 //     cout << "Enter a number: ";
@@ -12,7 +13,7 @@ using namespace std;
 // }
 
 
-
+//Write a program to find the greater of two numbers.
 // int main(){
 //     int fNum, sNum;
 //     cout << "Enter a first number: ";
@@ -29,10 +30,11 @@ using namespace std;
 
 
 
+//Write a program to assign grades based on marks (A, B, C, F).
 //Assigning grades based on marks (A,B,C,F), if ladder
 
 // int main(){
-//     float grade;
+//     float marks;
 //     cout << "Enter your marks: ";
 //     cin >> marks;
 
@@ -48,8 +50,8 @@ using namespace std;
 // }
 
 
-
-// int main(){ //Switch case
+//Switch case
+// int main(){ 
 //    float marks;
 //     int category;
 //     cout << "enter your marks: ";
@@ -78,6 +80,7 @@ using namespace std;
 // }
 
 
+ //Nested If Statement
 // int main(){
 //     int num;
 //     cout << "Enter a number: ";
@@ -97,6 +100,21 @@ using namespace std;
 // }
 
 
+//Ternery operator
+// int main(){
+//     int num1, num2, smaller;
+
+//     cout << "Enter first number: ";
+//     cin >> num1;
+//     cout << "Enter second number: ";
+//     cin >> num2;
+
+//     smaller = (num1 < num2) ? num1 : num2;
+
+//     cout << "The smaller number is: " << smaller << endl;
+// }
+
+
 // int main(){
 
 // srand(time(0));
@@ -104,14 +122,16 @@ using namespace std;
 //     cout << number;
 // }
 
-int main(){
-    int lYear;
-    cout << "Enter a year: ";
-    cin >> lYear;
+
+
+// int main(){
+//     int lYear;
+//     cout << "Enter a year: ";
+//     cin >> lYear;
     
-    if ((lYear % 4 == 0)|| (lYear % 100 ==! 0)|| (lYear % 400 == 0)){
-            cout << lYear << " is a leap year!" << endl;
-        } else {
-            cout << lYear << " is not a leap year!" << endl;
-        }
-    }
+//     if ((lYear % 4 == 0)|| (lYear % 100 ==! 0)|| (lYear % 400 == 0)){
+//             cout << lYear << " is a leap year!" << endl;
+//         } else {
+//             cout << lYear << " is not a leap year!" << endl;
+//         }
+//     }
